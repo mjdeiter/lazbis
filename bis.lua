@@ -3697,6 +3697,7 @@ return {
 		['Paladin'] = {
 			['PrimaryAug'] = 'Square Aspect of Survival',
 			['RangeAug'] = 'Square Aspect of Exchange',
+			['Tempest (Pri)'] = 'Tempest of the Wyrm',
 		},
 		['Ranger'] = {
 			['PrimaryAug'] = 'Marquise Aspect of Exchange',
@@ -3711,6 +3712,7 @@ return {
 		['Shadow Knight'] = {
 			['PrimaryAug'] = 'Square Aspect of Survival',
 			['RangeAug'] = 'Square Aspect of Exchange',
+			['Tempest (Pri)'] = 'Tempest of the Wyrm',
 		},
 		['Shaman'] = {
 			['PrimaryAug'] = 'Trilliant Aspect of Survival',
@@ -3719,6 +3721,7 @@ return {
 		['Warrior'] = {
 			['PrimaryAug'] = 'Square Aspect of Survival',
 			['RangeAug'] = 'Square Aspect of Exchange',
+			['Ember (Pri)'] = 'Ember of the Broodlords',
 		},
 		['Wizard'] = {
 			['PrimaryAug'] = 'Marquise Aspect of Flame',
@@ -3727,11 +3730,17 @@ return {
 		},
 		['Main'] = {
 			['Slots'] = {
-				{Name='Nightveil Augs', Slots={'Codex','PrimaryAug','SecondaryAug','RangeAug',}}
+				{Name='Nightveil Augs', Slots={'Codex','PrimaryAug','SecondaryAug','RangeAug',}},
+				{Name='VP Hardcore', Slots={'Ember (Pri)','Tempest (Pri)','Cranium (Pri/2nd)','Sigil (2nd)','Satchel','HeartAnguish','HeartDread'}},
 			}
 		},
 		['Template'] = {
 			['Codex'] = 'Codex of Numbers',
+			['Cranium (Pri/2nd)'] = 'Cranium of Eternal Pain',
+			['Satchel'] = 'Ascendant Dragonhide Satchel',
+			['Sigil (2nd)'] = 'Sigil of the Claws',	
+			['HeartAnguish'] = 'Heart of Anguish',
+			['HeartDread'] = 'Heart of Dread',
 		},
 	},
 	-- {Name='Brawler\'s', Slots={'Brawler\'s Amorphous Lightning','Brawler\'s Amorphous Flame','Brawler\'s Amorphous Frost','Brawler\'s Amorphous Venom','Brawler\'s Amorphous Vampirism','Brawler\'s Amorphous Enduring','Brawler\'s Amorphous Exchange','Brawler\'s Amorphous Chaos',}}
@@ -3761,13 +3770,19 @@ return {
 			['Adventurer\'s Tattered Sack (Arcwoven) (UP3)'] = 'Adventurer\'s Tattered Sack (Arcwoven)/151057',
 			['Master Tailor\'s Celestial Lining (T5 Trash)'] = 'Master Tailor\'s Celestial Lining/151057',
 			['Adventurer\'s Tattered Sack (Celestial)'] = 'Adventurer\'s Tattered Sack (Celestial)',
-			
+
+			['Chromatic Dragonhide Satchel (Base)'] = 'Chromatic Dragonhide Satchel/81946/81945/81944/81943/81942',
+			['Reinforced Dragonhide Satchel (UP1)'] = 'Reinforced Dragonhide Satchel/81946/81945/81944/81943',
+			['Scaled Dragonhide Satchel (UP2)'] = 'Elder Dragonhide Satchel/81946/81945/81944',
+			['Elder Dragonhide Satchel (UP3)'] = 'Chromatic Dragonhide Satchel/81946/81945',
+			['Ascendant Dragonhide Satchel (UP^)'] = 'Ascendant Dragonhide Satchel/81946',
+
 			['Tailored Legendary Pink Pack (Base)'] = 'Tailored Legendary Pink Pack/50628',
 			['Enhanced Legendary Pink Pack (UP^)'] = 'Enhanced Legendary Pink Pack',
 
 			['Santug\'s Stocking (Base)'] = 'Santug\'s Stocking/50623',
 			['Enhanced Santug\'s Stocking (UP^)'] = 'Enhanced Santug\'s Stocking',
-			
+
 			['Heart Shaped Box (Base)'] = 'Heart Shaped Box/50423',
 			['Enhanced Heart Shaped Box (UP^)'] = 'Enhanced Heart Shaped Box',
 
@@ -3784,6 +3799,7 @@ return {
 			['Slots'] = {				
 				{Name='Farmed Bag', Slots={'Adventurer\'s Tattered Sack (Base) (T1 Named)','Reinforced Stitching Frame (T2 Trash)','Adventurer\'s Tattered Sack (Reinforced) (UP1)','Treated Expedition Straps (T3 Trash)','Adventurer\'s Tattered Sack (Bound) (UP2)','Arcwoven Binding Thread (T4 Trash)','Adventurer\'s Tattered Sack (Arcwoven) (UP3)','Master Tailor\'s Celestial Lining (T5 Trash)','Adventurer\'s Tattered Sack (Celestial)'}},
 				{Name='Upgradable Bags (Djinn Lamp x10)', Slots={'Celestial Strongbox (CC) (Base)','Celestial Blessing of the Djinn (UPG ITM)','Blessed Celestial Strongbox (UP1)','Blessed Celestial Strongbox (UP2)','Blessed Celestial Strongbox (UP3)','Blessed Celestial Strongbox (UP4)','Blessed Celestial Strongbox (UP5)','Blessed Celestial Strongbox (UP6)','Blessed Celestial Strongbox (UP7)','Blessed Celestial Strongbox (UP8)','Blessed Celestial Strongbox (UP9)','Hallowed Celestial Strongbox (UP^)'}},
+				{Name='Upgradable Bags (Shady x4)', Slots={'Chromatic Dragonhide Satchel (Base)','Draconic Binding Thread (UPG ITM)','Reinforced Dragonhide Satchel (UP1)','Scaled Dragonhide Satchel (UP2)','Elder Dragonhide Satchel (UP3)','Ascendant Dragonhide Satchel (UP^)'}},
 				{Name='Upgradable Bags (Jolum x1)', Slots={'Tailored Legendary Pink Pack (Base)','Enhanced Legendary Pink Pack (UP^)','Santug\'s Stocking (Base)','Enhanced Santug\'s Stocking (UP^)','Heart Shaped Box (Base)','Enhanced Heart Shaped Box (UP^)','Enchanted Slimesack (Token DZ) (Base)','Enhanced Enchanted Slimesack (Token DZ) (UP^)'}},
 				{Name='Upgradable Bags (Recipe)', Slots={'Bank Storage Crate (Shady) (Base)','Alloy Reinforced Bank Vault (UP^)'}},
 				{Name='Lotto Tickets', Slots={'Euclid\'s Prime Carryall','Artisan\'s Adept Attache',}},

@@ -4,7 +4,7 @@ aquietone, dlilah, ...
 
 Tracker lua script for all the good stuff to have on Project Lazarus server.
 ]]
-local meta			= {version = '3.5.4', name = string.match(string.gsub(debug.getinfo(1, 'S').short_src, '\\init.lua', ''), "[^\\]+$")}
+local meta			= {version = '3.6.0', name = string.match(string.gsub(debug.getinfo(1, 'S').short_src, '\\init.lua', ''), "[^\\]+$")}
 local mq			= require('mq')
 local ImGui			= require('ImGui')
 local bisConfig		= require('bis')
@@ -76,6 +76,8 @@ local DZ_NAMES = {
 		{name='Crucible of the Occultist', lockout='Crucible of the Occultist', zone='Nightveil Sanctum'},
 		{name='Crucible of the Physician', lockout='Crucible of the Physician', zone='Nightveil Sanctum'},
 		{name='Crucible of the Warden', lockout='Crucible of the Warden', zone='Nightveil Sanctum'},
+		{name='VP Hardcore', lockout='VP Hardcore', zone='Nightveil Sanctum'},
+		{name='Manastone Source', lockout='Manastone Source', zone='HC Guk Bottom'},
 	},
 	Group = {
 		{name='Lucian\'s Nightmare', lockout='Lucian\'s Nightmare', zone='Nightveil Sanctum'},
