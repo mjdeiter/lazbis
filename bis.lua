@@ -3017,6 +3017,7 @@ return {
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 			['Idol'] = '9 Paths of Despair',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Berserker'] = {
 			['BellikosFang'] = 'Fragmented Bellikos Fang',
@@ -3031,6 +3032,7 @@ return {
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
 			['Idol'] = '9 Paths of Despair',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Cleric'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3040,6 +3042,7 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Weighted Hammer of Conviction',
 			['Veeshan Clicky'] = 'Aged Shissar Apothic Staff',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Druid'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3048,6 +3051,7 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Kelp-Covered Hammer',
 			['Veeshan Clicky'] = 'Aged Dragon Spine Staff',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Enchanter'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3056,6 +3060,7 @@ return {
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
 			['Tacvi Clicky'] = 'Hammer of Delusions',
 			['Veeshan Clicky'] = 'Aged Shissar Focus Staff',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Magician'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3064,6 +3069,7 @@ return {
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
 			['Tacvi Clicky'] = 'Dagger of Evil Summons',
 			['Veeshan Clicky'] = 'Aged Sarnak Channeler Staff',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Monk'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3080,6 +3086,7 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Dagger of Death',
 			['Veeshan Clicky'] = 'Aged Shissar Deathspeaker Staff',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Paladin'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3089,6 +3096,7 @@ return {
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Ranger'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3097,6 +3105,7 @@ return {
 			['ImbuedRune'] = 'Imbued Rune of Jolting Snapkicks',
 			['Food'] = 'Hunter\'s Meat and Taters',
 			['Drink'] = 'Stalker\'s Spirit Slush',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Rogue'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3113,6 +3122,7 @@ return {
 			['Food'] = 'Armored Starfish Skewers',
 			['Drink'] = 'Bamboo Defender Margarita',
 			['Idol'] = '9 Paths of Despair',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Shaman'] = {
 			['BellikosEye'] = 'Obsidian Bellikos Eye',
@@ -3121,6 +3131,7 @@ return {
 			['Drink'] = 'Darting Dragonroot Daiquiri',
 			['Tacvi Clicky'] = 'Zun\'Muram\'s Spear of Doom',
 			['Veeshan Clicky'] = 'Aged Hammer of the Dragonborn',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Warrior'] = {
 			['BellikosClaws'] = 'Splintered Bellikos Claws',
@@ -3138,6 +3149,7 @@ return {
 			['Drink'] = 'Arcane Ambrosia Daiquiri',
 			['Tacvi Clicky'] = 'Scepter of Incantations',
 			['Veeshan Clicky'] = 'Aged Shissar Elementalist\'s Staff',
+			['Honed'] = 'Honed Manastone',
 		},
 		['Template'] = {
 			['Crown'] = 'Bloodcursed Crown of Vzith',
@@ -3175,6 +3187,7 @@ return {
 				{Name='Power of 3 (HS)', Slots={'Lucky Grass Trinket','Lucky Copper/Silver'}},
 				{Name='Power of 6 (Keepsakes)', Slots={'Symbol','Destruction','Mending','Persistence','Suffering','Cleaving','Deflection','Evasion','Ferocity'}},
 				{Name='Power of 9 (Clue)', Slots={'Eyes', 'Tongue','Idol','Oculus','Horseshoe'}},
+				{Name='Mana Source', Slots={'Honed'}},
 				{Name='Crimson Curse (Chardok)', Slots={'Crown'}},
 				{Name='Kithicor', Slots={'BellikosClaws','BellikosFang','BellikosEye','BellikosTear','BellikosDoll','DollmakersKey'}},
 				{Name='Powersource', Slots={'EOC','Radix','OtherworldlySoul'}},
